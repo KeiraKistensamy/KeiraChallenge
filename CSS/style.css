@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------- */
+/* NavBar */
+/* --------------------------------------------------- */
+
+.navbar-nav .nav-item .nav-link {
+    color: #000; /* default color */
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #efc4d455; /* change to your desired hover color */
+}
+
+
+.navbar {
+    & img[alt='logo'] {
+        width: 5rem;
+    }
+    &:hover {
+        transition: 1s ease-in-out;
+        color: black;
+    }
+}
+
